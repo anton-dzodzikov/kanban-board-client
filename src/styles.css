@@ -1,5 +1,30 @@
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.board {
+  background-color: antiquewhite;
+  display: flex;
+  min-width: 800px;
+  min-height: calc(100vh - 16px);
+  position: relative;
+  align-items: stretch;
+  padding: 0 3px;
+}
+.board .column {
+  background-color: burlywood;
+  margin: 6px 3px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.board .column .column-title {
+  background-color: beige;
+  margin: 3px;
+  flex-grow: 1;
+}
+.board .column .column-body {
+  background-color: beige;
+  margin: 3px;
+  flex-grow: 12;
 }
