@@ -1,2 +1,6 @@
 /node_modules
 /.idea
+**/app/**.js
+**/app/**.map
+src/main.js
+src/main.js.map
